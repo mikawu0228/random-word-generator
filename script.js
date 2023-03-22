@@ -9,7 +9,8 @@
 \pard\pardeftab720\partightenfactor0
 
 \f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 document.\cf4 \cb3 \strokec4 getElementById\cf2 \cb3 \strokec2 (\cf5 \strokec5 "generateBtn"\cf2 \strokec2 ).\cf4 \cb3 \strokec4 addEventListener\cf2 \cb3 \strokec2 (\cf5 \strokec5 "click"\cf2 \strokec2 , \cf4 \cb3 \strokec4 function\cf2 \cb3 \strokec2 () \{\
+\outl0\strokewidth0 \strokec2 ```javascript\
+document.\cf4 \strokec4 getElementById\cf2 \strokec2 (\cf5 \strokec5 "generateBtn"\cf2 \strokec2 ).\cf4 \strokec4 addEventListener\cf2 \strokec2 (\cf5 \strokec5 "click"\cf2 \strokec2 , \cf4 \strokec4 function\cf2 \strokec2 () \{\
     const words = \cf6 \strokec6 [\cf5 \strokec5 "fishing"\cf6 \strokec6 , \cf5 \strokec5 "coding"\cf6 \strokec6 , \cf5 \strokec5 "reading"\cf6 \strokec6 , \cf5 \strokec5 "hiking"\cf6 \strokec6 , \cf5 \strokec5 "cooking"\cf6 \strokec6 , \cf5 \strokec5 "running"\cf6 \strokec6 , \cf5 \strokec5 "swimming"\cf6 \strokec6 , \cf5 \strokec5 "painting"\cf6 \strokec6 ]\cf2 \strokec2 ;\
     const randomIndex = Math\cf6 \strokec6 .floor\cf2 \strokec2 (Math\cf6 \strokec6 .random\cf2 \strokec2 () * words\cf6 \strokec6 .length\cf2 \strokec2 );\
     const randomWord = words\cf6 \strokec6 [randomIndex]\cf2 \strokec2 ;\
